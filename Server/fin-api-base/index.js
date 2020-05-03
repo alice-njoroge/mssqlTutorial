@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-const sql = require('mssql');
 require('dotenv').config();
 
 const connection = require('./utils/connection');
